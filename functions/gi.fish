@@ -4,5 +4,5 @@ end
 
 function gi
   set -l param (string join ',' $argv)
-  curl -fLw '\n' https://www.gitignore.io/api/${param}
+  curl -fLw '\n' https://www.gitignore.io/api/{$param}
 end
