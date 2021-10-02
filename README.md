@@ -1,8 +1,8 @@
-# gi.fish
+# gi
 
 Uses gitignore API to help you generate .gitignore files, ported from the [ohmyzsh gitignore plugin]
 
-## Usage
+## Usage
 
 ```
 gi # TAB will show languages available
